@@ -1,41 +1,37 @@
-dist: xenial
-language: go
-go:
-  - 1.9.x
-  - 1.10.x
-  - 1.11.x
-  - tip
+---
 
-matrix:
-  include:
-    - go: 1.11.x
-      env:
-        - RUNC_USE_SYSTEMD=1
-      script:
-        - make BUILDTAGS="${BUILDTAGS}" all
-        - sudo PATH="$PATH" make localintegration RUNC_USE_SYSTEMD=1
-  allow_failures:
-    - go: tip
-
-go_import_path: github.com/opencontainers/runc
-
-# `make ci` uses Docker.
 sudo: required
+
+language: go
+
+go:
+    - master
+
 services:
-  - docker
+    - docker
+
+branches:
+    only:
+        - bionic
 
 env:
-  global:
-    - BUILDTAGS="seccomp apparmor selinux ambient"
+    global:
+        - TRAVIS_ENV="-e TRAVIS=$TRAVIS
+          -e CI=$CI
+          -e TRAVIS_COMMIT=$TRAVIS_COMMIT
+          -e TRAVIS_COMMIT_RANGE=$TRAVIS_COMMIT_RANGE
+          -e TRAVIS_REPO_SLUG=$TRAVIS_REPO_SLUG -e TRAVIS_PULL_REQUEST=$TRAVIS_PULL_REQUEST
+          -e TRAVIS_PULL_REQUEST_SHA=$TRAVIS_PULL_REQUEST_SHA -e TRAVIS_PULL_REQUEST_SLUG=$TRAVIS_PULL_REQUEST_SLUG
+          -e TRAVIS_BRANCH=$TRAVIS_BRANCH -e TRAVIS_JOB_ID=$TRAVIS_JOB_ID -e TRAVIS_BUILD_DIR=$TRAVIS_BUILD_DIR"
+        - DISTRO="ubuntu"
 
 before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y libseccomp-dev
-  - go get -u golang.org/x/lint/golint
-  - go get -u github.com/vbatts/git-validation
-  - env | grep TRAVIS_
+    - sudo apt-get -qq update
+    - sudo apt-get -qq install realpath
 
 script:
-  - git-validation -run DCO,short-subject -v
-  - make BUILDTAGS="${BUILDTAGS}"
-  - make BUILDTAGS="${BUILDTAGS}" clean ci cross
+    - echo "Travis/host environment:"
+    - env
+    - echo
+    - echo "Running tests in SPC using ./hack/run_build.sh"
+    - "./hack/run_build.sh"

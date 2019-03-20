@@ -1,0 +1,35 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+
+export DH_GOPKG := github.com/opencontainers/runc
+#export DH_GOLANG_INSTALL_EXTRA := libcontainer/seccomp/fixtures
+BUILDDIR := $(shell pwd)
+DESTDIR := $(BUILDDIR)/debian/cri-o-runc
+
+%:
+	dh $@ --buildsystem=golang --with=golang --builddirectory=$(BUILDDIR)
+
+override_dh_clean:
+	dh_clean
+	make clean
+	rm -rf $(BUILDDIR)/pkg $(BUILDDIR)/src $(BUILDDIR)/obj-x86_64-linux-gnu
+
+override_dh_auto_configure:
+	dh_auto_configure -O--buildsystem=golang
+	mkdir -p $(BUILDDIR)/src/$(DH_GOPKG)
+	rsync -a $(BUILDDIR)/* $(BUILDDIR)/src/$(DH_GOPKG) --exclude src
+	rm -rf src/$(DH_GOPKG)/runc*.go
+
+override_dh_auto_build:
+	GOPATH=$(BUILDDIR) go build -tags "apparmor seccomp" -o runc $(DH_GOPKG)
+
+override_dh_auto_install:
+	install -dp $(DESTDIR)/usr/lib/cri-o-runc/sbin
+	install -dp $(DESTDIR)/usr/bin
+	install -D -m0755 runc $(DESTDIR)/usr/lib/cri-o-runc/sbin/runc
+	ln -s /usr/lib/cri-o-runc/sbin/runc $(DESTDIR)/usr/bin/runc
+
+override_dh_auto_test:
+
