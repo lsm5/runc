@@ -1,0 +1,529 @@
+cri-o-runc (1.0.0-rc6-1~ubuntu16.04.2~ppa72) xenial; urgency=medium
+
+  * correctly create symlink in /usr/bin 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Mar 2019 13:41:26 +0000
+
+cri-o-runc (1.0.0-rc6-1~ubuntu16.04.2~ppa71) xenial; urgency=medium
+
+  * install symlink to /usr/bin instead of /usr/sbin
+  * do not conflict with docker-ce and default runc
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Mar 2019 12:57:37 +0000
+
+cri-o-runc (1.0.0-rc6-1~ubuntu16.04.2~ppa70) xenial; urgency=medium
+
+  * conflicts with distro's runc
+  * autobuilt f56b4cb
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 19 Mar 2019 17:47:13 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa69) xenial; urgency=medium
+
+  * autobuilt 751f18d
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 15 Feb 2019 11:23:14 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa68) xenial; urgency=medium
+
+  * autobuilt f414f49
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 14 Feb 2019 11:22:34 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa67) xenial; urgency=medium
+
+  * autobuilt 0a012df
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 13 Feb 2019 11:22:12 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa66) xenial; urgency=medium
+
+  * autobuilt 6635b4f
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 12 Feb 2019 11:21:43 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa65) xenial; urgency=medium
+
+  * autobuilt dd023c4
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 08 Feb 2019 11:18:42 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa64) xenial; urgency=medium
+
+  * autobuilt e4fa8a4
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 02 Feb 2019 11:14:40 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa63) xenial; urgency=medium
+
+  * autobuilt 8011af4
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 26 Jan 2019 11:11:26 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa62) xenial; urgency=medium
+
+  * autobuilt c1e454b
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 16 Jan 2019 11:08:41 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa61) xenial; urgency=medium
+
+  * autobuilt 12f6a99
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 15 Jan 2019 11:08:08 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa60) xenial; urgency=medium
+
+  * autobuilt bbb17ef
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 21 Dec 2018 10:59:01 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa59) xenial; urgency=medium
+
+  * autobuilt f5b9991
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 11 Dec 2018 10:53:22 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa58) xenial; urgency=medium
+
+  * autobuilt 859f745
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 09 Dec 2018 10:52:12 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa57) xenial; urgency=medium
+
+  * autobuilt 25f3f89
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 05 Dec 2018 10:51:11 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa56) xenial; urgency=medium
+
+  * autobuilt 96ec217
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 04 Dec 2018 10:50:27 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa55) xenial; urgency=medium
+
+  * autobuilt 4932620
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 27 Nov 2018 10:45:42 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa54) xenial; urgency=medium
+
+  * autobuilt 9397a6f
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 23 Nov 2018 10:44:26 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa53) xenial; urgency=medium
+
+  * autobuilt 50e2634
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 22 Nov 2018 10:44:10 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa52) xenial; urgency=medium
+
+  * autobuilt 73856f6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 20 Nov 2018 10:43:32 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa51) xenial; urgency=medium
+
+  * autobuilt bbe4b6f
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 19 Nov 2018 10:42:16 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa50) xenial; urgency=medium
+
+  * autobuilt 76520a4
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 17 Nov 2018 10:41:44 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa49) xenial; urgency=medium
+
+  * autobuilt 10d38b6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 14 Nov 2018 10:44:53 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa48) xenial; urgency=medium
+
+  * autobuilt 079817c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 08 Nov 2018 20:55:24 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa47) xenial; urgency=medium
+
+  * built 079817c 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 08 Nov 2018 15:36:21 -0500
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa46) xenial; urgency=medium
+
+  * autobuilt c2ab1e6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 18 Oct 2018 10:22:32 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa45) xenial; urgency=medium
+
+  * autobuilt 58592df
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 17 Oct 2018 10:22:15 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa44) xenial; urgency=medium
+
+  * autobuilt a00bf01
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 16 Oct 2018 10:21:19 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa43) xenial; urgency=medium
+
+  * autobuilt 398f670
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 15 Oct 2018 13:39:26 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa42) xenial; urgency=medium
+
+  * built 398f670 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 15 Oct 2018 09:33:03 -0400
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa41) xenial; urgency=medium
+
+  * autobuilt e40d463
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 11 Oct 2018 20:28:22 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa40) xenial; urgency=medium
+
+  * built e40d463
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 11 Oct 2018 16:14:36 -0400
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa38) xenial; urgency=medium
+
+  * autobuilt 2abd837
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 05 Oct 2018 19:13:50 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa37) xenial; urgency=medium
+
+  * autobuilt 2abd837
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 26 Sep 2018 10:10:31 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa36) xenial; urgency=medium
+
+  * autobuilt 00dc700
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 21 Sep 2018 10:06:40 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa35) xenial; urgency=medium
+
+  * autobuilt 578fe65
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 19 Sep 2018 10:09:46 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa34) xenial; urgency=medium
+
+  * autobuilt cc8146c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 18 Sep 2018 10:05:13 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa33) xenial; urgency=medium
+
+  * autobuilt 70ca035
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 06 Sep 2018 09:58:10 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa32) xenial; urgency=medium
+
+  * autobuilt 9cda583
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 05 Sep 2018 09:57:31 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa31) xenial; urgency=medium
+
+  * autobuilt fdd8055
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 31 Aug 2018 09:54:15 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa30) xenial; urgency=medium
+
+  * autobuilt 1555a78
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 28 Aug 2018 09:52:05 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa29) xenial; urgency=medium
+
+  * autobuilt 0228707
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 27 Aug 2018 09:51:51 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa28) xenial; urgency=medium
+
+  * autobuilt 459bfae
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 25 Aug 2018 09:52:08 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa27) xenial; urgency=medium
+
+  * autobuilt 308daad
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 23 Aug 2018 09:49:54 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa26) xenial; urgency=medium
+
+  * autobuilt 6b8de90
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 22 Aug 2018 09:51:24 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa25) xenial; urgency=medium
+
+  * autobuilt 20aff4f
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 15 Aug 2018 09:46:26 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa24) xenial; urgency=medium
+
+  * autobuilt 4056a41
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 02 Aug 2018 09:38:46 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa23) xenial; urgency=medium
+
+  * autobuilt beadf0e
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 29 Jul 2018 09:36:49 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa22) xenial; urgency=medium
+
+  * autobuilt b4e2ecb
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 26 Jul 2018 09:36:00 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa21) xenial; urgency=medium
+
+  * autobuilt bc14672
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 18 Jul 2018 09:37:11 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa20) xenial; urgency=medium
+
+  * autobuilt 21ac086
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 11 Jul 2018 09:26:46 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa19) xenial; urgency=medium
+
+  * autobuilt 45e08f6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 05 Jul 2018 09:22:39 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa18) xenial; urgency=medium
+
+  * autobuilt 2c632d1
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 27 Jun 2018 12:32:18 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa17) xenial; urgency=medium
+
+  * autobuilt 3ccfa2f
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 25 Jun 2018 09:25:26 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa16) xenial; urgency=medium
+
+  * autobuilt 0154d05
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 24 Jun 2018 09:16:17 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa15) xenial; urgency=medium
+
+  * autobuilt ad0f525
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 16 Jun 2018 09:12:46 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa14) xenial; urgency=medium
+
+  * autobuilt b222ea4
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 15 Jun 2018 09:14:48 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa13) xenial; urgency=medium
+
+  * autobuilt dd56ece
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 04 Jun 2018 09:06:41 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa12) xenial; urgency=medium
+
+  * autobuilt 2e91544
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 03 Jun 2018 09:06:05 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa11) xenial; urgency=medium
+
+  * autobuilt ecd55a4
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 31 May 2018 09:05:06 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa10) xenial; urgency=medium
+
+  * autobuilt 0e56164
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 30 May 2018 09:04:15 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa9) xenial; urgency=medium
+
+  * autobuilt dd67ab1
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 25 May 2018 09:02:49 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa8) xenial; urgency=medium
+
+  * autobuilt 3a07931
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 23 May 2018 09:02:51 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa7) xenial; urgency=medium
+
+  * autobuilt 0cbfd83
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 29 Apr 2018 00:24:33 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa6) xenial; urgency=medium
+
+  * autobuilt 1f11dc5
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 20 Apr 2018 04:36:58 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa5) xenial; urgency=medium
+
+  * autobuilt 63e6708
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 19 Apr 2018 08:41:54 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa4) xenial; urgency=medium
+
+  * autobuilt 63e6708
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 19 Apr 2018 08:20:32 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa3) xenial; urgency=medium
+
+  * bump to commit 63e6708
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 19 Apr 2018 03:51:25 +0000
+
+cri-o-runc (1.0.0-rc5-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to commit 9f9c962
+  * use 'rc5' in release tag or else problems sending to PPA
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 19 Apr 2018 03:51:25 +0000
+
+cri-o-runc (1.0.0-3~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to commit 9f9c962
+  * get rid of "rc" from release tag
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 19 Apr 2018 03:34:25 +0000
+
+cri-o-runc (1.0.0-rc4.5-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to commit 9f9c962
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 26 Jan 2018 15:34:25 +0000
+
+cri-o-runc (1.0.0-rc4.4-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump with a '.4' to correct distro version issues 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 18 Dec 2017 14:39:25 +0000
+
+cri-o-runc (1.0.0-rc4.3-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * built commit e6516b3 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 18 Dec 2017 14:24:52 +0000
+
+cri-o-runc (1.0.0-rc4.2-1~ubuntu16.04.2~ppa6) xenial; urgency=medium
+
+  * built commit 13fa5d2
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 11 Sep 2017 13:39:50 -0400
+
+cri-o-runc (1.0.0-rc4.1-1~ubuntu16.04.2~ppa5) xenial; urgency=medium
+
+  * remove src/github.com/opencontainers/runc/runc*.go 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 27 Aug 2017 23:06:31 -0400
+
+cri-o-runc (1.0.0-rc4.1-1~ubuntu16.04.2~ppa4) xenial; urgency=medium
+
+  * remove src/github.com/opencontainers/runc/runccheckpoint.go 
+  * (no idea why it's created)
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 27 Aug 2017 23:00:22 -0400
+
+cri-o-runc (1.0.0-rc4.1-1~ubuntu16.04.2~ppa3) xenial; urgency=medium
+
+  * bump to ppa3, no other change
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 27 Aug 2017 22:48:47 -0400
+
+cri-o-runc (1.0.0-rc4.1-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * do not copy from vendor to src
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 27 Aug 2017 22:34:13 -0400
+
+cri-o-runc (1.0.0-rc4.1-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to 1.0.0-rc4
+  * built commit 1c81e2a
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 27 Aug 2017 22:25:56 -0400
+
+cri-o-runc (1.0.0-rc3.2-1~ubuntu16.04.2~ppa3) xenial; urgency=medium
+
+  * add golang-1.8 to build dep
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 27 Aug 2017 22:13:19 -0400
+
+cri-o-runc (1.0.0-rc3.2-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * make sure to use go-1.8
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 27 Aug 2017 22:06:36 -0400
+
+cri-o-runc (1.0.0-rc3.1-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * built commit 45bde00
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 27 Aug 2017 21:42:01 -0400
+
+cri-o-runc (1.0.0-rc3-1~ubuntu16.04.2~ppa4) xenial; urgency=medium
+
+  * add pkg-config to build dep 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 05 Jul 2017 10:10:45 -0400
+
+cri-o-runc (1.0.0-rc3-1~ubuntu16.04.2~ppa3) xenial; urgency=medium
+
+  * build with go-1.7 from gophers' ppa 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 05 Jul 2017 10:06:26 -0400
+
+cri-o-runc (1.0.0-rc3-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * add rsync to build dep 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 05 Jul 2017 10:00:52 -0400
+
+cri-o-runc (1.0.0-rc3-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * fork packaged for cri-o
+  * binary installed to /usr/lib/cri-o-runc/sbin/
+  * packaging files mostly copied from the official debian package
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 05 Jul 2017 09:41:15 -0400

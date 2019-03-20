@@ -1,0 +1,30 @@
+Source: cri-o-runc
+Section: devel
+Priority: extra
+Maintainer: Lokesh Mandvekar <lsm5@fedoraproject.org>
+Build-Depends: debhelper (>= 9),
+    dh-golang,
+    go-md2man,
+    libapparmor-dev,
+    protobuf-compiler,
+    libseccomp-dev,
+    rsync,
+    golang-1.10,
+    pkg-config
+Standards-Version: 3.9.8
+Homepage: https://github.com/opencontainers/runc
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/runc.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/runc.git
+
+Package: cri-o-runc
+Architecture: any
+Depends: ${misc:Depends},
+    ${shlibs:Depends},
+    libseccomp2
+Breaks: docker.io (<< 1.12)
+Built-Using: ${misc:Built-Using}
+Description: Open Container Project - runtime
+ "runc" is a command line client for running applications packaged according
+ to the Open Container Format (OCF) and is a compliant implementation of
+ the Open Container Project specification.
+ This package is a fork of the "runc' package, specifically for cri-o.
