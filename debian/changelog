@@ -1,3 +1,9 @@
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa32) bionic; urgency=medium
+
+  * autobuilt f56b4cb
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 20 Mar 2019 16:30:22 +0000
+
 cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa31) bionic; urgency=medium
 
   * install runc symlink to /usr/bin and not /usr/sbin
