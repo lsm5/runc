@@ -1,0 +1,262 @@
+cri-o-runc (1.0.0-1~rc8~ubuntu19.04~ppa1) disco; urgency=medium
+
+  * built v1.0.0-rc8
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 28 Jul 2019 02:40:56 +0000
+
+cri-o-runc (1.0.0-rc8-1~ubuntu18.04~ppa1) bionic; urgency=medium
+
+  * built v1.0.0-rc8
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 22 Jul 2019 19:48:26 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa44) bionic; urgency=medium
+
+  * autobuilt 5ef781c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 23 May 2019 16:57:25 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa43) bionic; urgency=medium
+
+  * autobuilt c833777
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 21 May 2019 16:56:38 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa42) bionic; urgency=medium
+
+  * autobuilt b9b6cc6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 15 May 2019 16:54:40 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa41) bionic; urgency=medium
+
+  * autobuilt eb4aeed
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 08 May 2019 16:49:59 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa40) bionic; urgency=medium
+
+  * autobuilt 70bc4cd
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 07 May 2019 16:50:31 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa39) bionic; urgency=medium
+
+  * autobuilt dae70e8
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 26 Apr 2019 16:45:01 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa38) bionic; urgency=medium
+
+  * autobuilt c1b8c57
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 24 Apr 2019 16:43:17 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa37) bionic; urgency=medium
+
+  * autobuilt 029124d
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 04 Apr 2019 16:34:13 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa36) bionic; urgency=medium
+
+  * autobuilt 6a3f474
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 03 Apr 2019 16:33:40 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa35) bionic; urgency=medium
+
+  * autobuilt da20211
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 28 Mar 2019 17:41:11 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa34) bionic; urgency=medium
+
+  * autobuilt 11fc498
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 23 Mar 2019 16:28:50 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa33) bionic; urgency=medium
+
+  * autobuilt dd22a84
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 21 Mar 2019 16:30:45 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa32) bionic; urgency=medium
+
+  * autobuilt f56b4cb
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 20 Mar 2019 16:30:22 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa31) bionic; urgency=medium
+
+  * install runc symlink to /usr/bin and not /usr/sbin
+  * do not conflict with docker-ce and default runc
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Mar 2019 12:51:19 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa30) bionic; urgency=medium
+
+  * autobuilt f56b4cb 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 19 Mar 2019 19:12:40 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa29) bionic; urgency=medium
+
+  * autobuilt 751f18d
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 15 Feb 2019 16:12:15 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa28) bionic; urgency=medium
+
+  * autobuilt f414f49
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 14 Feb 2019 16:10:53 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa27) bionic; urgency=medium
+
+  * autobuilt 0a012df
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 13 Feb 2019 16:11:33 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa26) bionic; urgency=medium
+
+  * autobuilt 6635b4f
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 11 Feb 2019 16:09:59 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa25) bionic; urgency=medium
+
+  * autobuilt dd023c4
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 09 Feb 2019 16:08:16 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa24) bionic; urgency=medium
+
+  * autobuilt e4fa8a4
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 02 Feb 2019 16:06:09 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa23) bionic; urgency=medium
+
+  * autobuilt 8011af4
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 26 Jan 2019 16:02:42 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa22) bionic; urgency=medium
+
+  * autobuilt c1e454b
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 16 Jan 2019 15:56:17 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa21) bionic; urgency=medium
+
+  * autobuilt 12f6a99
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 15 Jan 2019 15:55:53 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa20) bionic; urgency=medium
+
+  * autobuilt bbb17ef
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 20 Dec 2018 15:43:20 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa19) bionic; urgency=medium
+
+  * autobuilt f5b9991
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 11 Dec 2018 15:38:35 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa18) bionic; urgency=medium
+
+  * autobuilt 859f745
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 09 Dec 2018 15:37:25 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa17) bionic; urgency=medium
+
+  * autobuilt 25f3f89
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 05 Dec 2018 15:35:50 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa16) bionic; urgency=medium
+
+  * autobuilt 96ec217
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 04 Dec 2018 15:35:42 +0000
+
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa15) bionic; urgency=medium
+
+  * install symlink to /usr/sbin/runc
+  * autobuilt 4932620
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 29 Nov 2018 16:50:31 -0500
+
+cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa14) bionic; urgency=medium
+
+  * autobuilt 4932620
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 27 Nov 2018 15:31:11 +0000
+
+cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa13) bionic; urgency=medium
+
+  * autobuilt 9397a6f
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 22 Nov 2018 15:27:26 +0000
+
+cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa12) bionic; urgency=medium
+
+  * autobuilt 73856f6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 20 Nov 2018 15:26:59 +0000
+
+cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa11) bionic; urgency=medium
+
+  * autobuilt 785fd9c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 19 Nov 2018 15:26:43 +0000
+
+cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa10) bionic; urgency=medium
+
+  * autobuilt bbe4b6f
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 18 Nov 2018 15:26:30 +0000
+
+cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa9) bionic; urgency=medium
+
+  * autobuilt 76520a4
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 17 Nov 2018 15:25:24 +0000
+
+cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa8) bionic; urgency=medium
+
+  * autobuilt 10d38b6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 14 Nov 2018 15:25:13 +0000
+
+cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa7) bionic; urgency=medium
+
+  * autobuilt bb522d6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 13 Nov 2018 15:24:31 +0000
+
+cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa6) bionic; urgency=medium
+
+  * autobuilt 079817c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 08 Nov 2018 22:21:05 +0000
+
+cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa5) bionic; urgency=medium
+
+  * built 079817c 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 08 Nov 2018 15:48:55 -0500
+
+cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa4) bionic; urgency=medium
+
+  * fork packaged for cri-o
+  * binary installed to /usr/lib/cri-o-runc/sbin/
+  * packaging files mostly copied from the official debian package
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 12 Aug 2018 09:25:26 +0000
+
