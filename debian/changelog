@@ -1,3 +1,9 @@
+cri-o-runc (1.0.0-rc6-1~ubuntu16.04.2~ppa73) xenial; urgency=medium
+
+  * autobuilt dd22a84
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 21 Mar 2019 11:40:21 +0000
+
 cri-o-runc (1.0.0-rc6-1~ubuntu16.04.2~ppa72) xenial; urgency=medium
 
   * correctly create symlink in /usr/bin 
