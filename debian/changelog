@@ -1,3 +1,9 @@
+cri-o-runc (1.0.0-rc6-1~ubuntu16.04.2~ppa75) xenial; urgency=medium
+
+  * autobuilt da20211
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 29 Mar 2019 11:44:34 +0000
+
 cri-o-runc (1.0.0-rc6-1~ubuntu16.04.2~ppa74) xenial; urgency=medium
 
   * autobuilt 11fc498
