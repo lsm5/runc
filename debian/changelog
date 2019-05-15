@@ -1,3 +1,9 @@
+cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa42) bionic; urgency=medium
+
+  * autobuilt b9b6cc6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 15 May 2019 16:54:40 +0000
+
 cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa41) bionic; urgency=medium
 
   * autobuilt eb4aeed
