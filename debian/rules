@@ -29,7 +29,6 @@ override_dh_auto_install:
 	install -dp $(DESTDIR)/usr/lib/cri-o-runc/sbin
 	install -dp $(DESTDIR)/usr/bin
 	install -D -m0755 runc $(DESTDIR)/usr/lib/cri-o-runc/sbin/runc
-	ln -s /usr/lib/cri-o-runc/sbin/runc $(DESTDIR)/usr/bin/runc
 
 override_dh_auto_test:
 
