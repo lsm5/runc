@@ -1,3 +1,10 @@
+cri-o-runc (1.0.0-1~rc9~ubuntu19.04~ppa1) disco; urgency=medium
+
+  * built v1.0.0-rc9
+  * Resolves: CVE-2019-16884
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 07 Oct 2019 13:45:50 +0000
+
 cri-o-runc (1.0.0-1~rc8~ubuntu19.04~ppa1) disco; urgency=medium
 
   * built v1.0.0-rc8
